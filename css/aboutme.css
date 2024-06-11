@@ -1,0 +1,17 @@
+
+
+
+body{
+    background-image: url(../img/bgd2.avif);
+}
+.menu{
+    height: 520px;
+    width: 400px;
+    color: whitesmoke;
+    font-size: x-large;
+}
+.menu1{
+    text-decoration: underline;
+    color: blue;
+    font-size: larger;
+}

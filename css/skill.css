@@ -1,0 +1,14 @@
+
+body{
+    background-image: url(../img/bgd2.avif);
+}
+
+#skill{
+    color: whitesmoke;
+    font-size: larger;
+    border-bottom: solid 1px whitesmoke;
+}
+h1{
+    color: blue;
+    text-decoration: underline;
+}

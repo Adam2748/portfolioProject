@@ -1,0 +1,208 @@
+
+body{
+    background-image: url(../img/bgd2.avif);
+    margin-left: 80px;
+    text-align: center;
+}
+
+.menu{
+    width: 80%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: x-large;
+    margin-bottom: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+}
+.menu0{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu1{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.menu2{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+.menu3{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu4{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu5{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.menu6{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.menu7{
+    text-decoration: none;
+    color: whitesmoke;
+
+}
+.box-image{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(../img/Adam.jpeg);
+    border-bottom: solid 1px whitesmoke;
+}
+
+.text-box{
+    border: 0px;
+    height: 600px;
+    width: 600px;
+    
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+    margin-bottom: 50px;
+    background-image: url(../img/bgd2.avif);
+  }
+  .contact{
+    border: solid;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+    
+  .message{
+    border: solid;
+    height: 200px;
+    width: 500px;
+  }
+.websites{
+    border: solid 1px blue;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+    margin-bottom: 50px;
+    
+}
+.website1{
+    width: 1200px;
+    height: 1600px;
+    font-size: x-large;
+    color: whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+    margin-bottom: 50px;
+    align-items: center;
+}
+figcaption{
+    color: whitesmoke;
+    padding-bottom: 50px;
+font-size: x-large;
+}
+header img{
+    border-radius: 50%;
+}
+
+.about{
+    color: whitesmoke;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: solid 1px whitesmoke;
+}
+#skill{
+    color: whitesmoke;
+    font-size: larger;
+    border-bottom: solid 1px whitesmoke;
+}
+.resume{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+/*mobile screens */
+@media (max-width: 800px) and (min-width: 300px) {
+    .about-me img {
+      display:block;
+      margin: 0 auto;
+    }
+    .portfolio img {
+      max-width: 150px;
+      margin-top: 170px;
+    }
+
+    #have-chat {
+      padding-top: 20px;
+    }
+
+    .contact-links {
+      padding-top: 35px;
+    }
+
+    #footer-links li {
+      padding: 0 15px;
+
+    }
+
+    .skill {
+      font-size: 5vw;
+    }
+    ul {
+      font-size: 4.5vw;
+      width: 80%;
+    }
+    #pageTwoLabel {
+      font-size: 13vw;
+    }
+    .pageOne {
+      background-size: 100% 100%;
+      height: 450px;
+    }
+    .title {
+      padding-bottom: 10px;
+      width: 90%;
+      top: 100px;
+    }
+    .border {
+      width: 25%;
+      border-width: 2px;
+    }
+    .pageTitles {
+      width: 85%;
+    }
+    #pageTitle {
+      padding-bottom: 15px;
+      font-size: 12vw;
+    }
+    /*skill category title */
+    #pageTwoLabel {
+      font-size: 10vw;
+      padding-bottom: 10px;
+    }
+  }

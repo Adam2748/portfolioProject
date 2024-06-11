@@ -1,0 +1,33 @@
+
+body{
+    background-image: url(../img/bgd2.avif);
+}
+.websites{
+    border: solid 1px blue;
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    color: whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+    margin-bottom: 50px;
+    
+}
+.website1{
+    width: 1200px;
+    height: 1500px;
+    font-size: x-large;
+    color: whitesmoke;
+    border-bottom: solid 1px whitesmoke;
+    margin-bottom: 50px;
+}
+figcaption{
+    color: whitesmoke;
+    padding-bottom: 50px;
+font-size: x-large;
+}
+h1{
+    color: blue;
+    text-decoration: underline;
+}
